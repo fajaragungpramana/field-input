@@ -1,4 +1,4 @@
-# Android Field Drawable
+# Android Field Input
 [![](https://jitpack.io/v/fajaragungpramana/field-input.svg)](https://jitpack.io/#fajaragungpramana/field-input)
 </br>
 </br>
@@ -67,7 +67,7 @@ fieldInput.text = "Type something here!" // Do this to set input
 
 
 ## Preview
-<a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldDrawable/preview.jpg" align="left" height="640" width="320" ></a>
+<a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldInput/fieldinput_preview.jpg" align="left" height="640" width="320" ></a>
 </br>
 </br>
 </br>
