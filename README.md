@@ -70,6 +70,20 @@ fieldInput.text = "Type something here!" // Do this to set input
 <a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldDrawable/preview.jpg" align="left" height="640" width="320" ></a>
 </br>
 </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 ## Documentation
 Attribute for FieldDrawable
