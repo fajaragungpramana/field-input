@@ -51,21 +51,25 @@ Define a view in your layout file:
 ```
 For drawable click listener.
 ```kotlin
-fieldDrawable.drawableListener = object : DrawableListener {
-	override fun onClickDrawable() {
-		// Do something magic here. When user click the drawable on field!
-	}
+fieldInput.setOnClickDrawableListener(DrawablePosition.END) {
+	Log.d(MainActivity::class.simpleName, "Clicked!")
 }
 ```
 For set error message.
 ```kotlin
-fieldDrawable.errorMessage = "Error message here!"
+fieldInput.errorMessage = "Type Something error message here!"
 ```
 For set text or get text input.
 ```kotlin
-fieldDrawable.text // Do this to get input
-fieldDrawable.text = "Type something here" // Do this to set input
+fieldInput.text // Do this to get input
+fieldInput.text = "Type something here!" // Do this to set input
 ```
+
+
+## Preview
+<a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldDrawable/preview.jpg" align="left" height="640" width="320" ></a>
+</br>
+</br>
 
 ## Documentation
 Attribute for FieldDrawable
@@ -75,6 +79,7 @@ Attribute for FieldDrawable
 | errorEnabled | false | For activate error below field |
 | focusable | true | For activate focus |
 | passwordToggleEnabled | false | For activate password visibility |
+| style | null | For set text appearance of text field |
 | textAllCaps | false | For activate field text caps |
 | drawableEnd | null | For put drawable in the right side |
 | inputType | text | For input type field |
@@ -101,7 +106,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
-
-## Preview
-<a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldDrawable/preview.jpg" align="left" height="640" width="320" ></a>
