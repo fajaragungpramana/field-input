@@ -98,7 +98,7 @@ fieldInput.text = "Type something here!" // Do this to set input
 </br>
 
 ## Documentation
-Attribute for FieldDrawable
+Attribute for FieldInput
 | Attribute Name | Default Value | Description |
 |----------------|---------------|-------------|
 | hint | null | For set hint of field.
