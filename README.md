@@ -1,5 +1,5 @@
 # Android Field Drawable
-[![](https://jitpack.io/v/fajaragungpramana/android-field-drawable.svg)](https://jitpack.io/#fajaragungpramana/android-field-drawable)
+[![](https://jitpack.io/v/fajaragungpramana/field-input.svg)](https://jitpack.io/#fajaragungpramana/field-input)
 </br>
 </br>
 Library for android, field input with drawable and click listener for drawable.
