@@ -1,0 +1,3 @@
+include ':field'
+include ':app'
+rootProject.name = "FieldInput"
