@@ -18,28 +18,34 @@ allProjects {
 Add the dependency:
 ```gradle
 dependencies {
-	implementation 'com.github.fajaragungpramana:field-drawable:0.0.1'
+	implementation 'com.github.fajaragungpramana:field-input:0.0.1'
 }
 ```
 
 ## Usage
 Define a view in your layout file:
 ```xml
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.implizstudio.android.app.library.FieldDrawable
-        android:id="@+id/fd_field"
+    <com.github.fajaragungpramana.field.FieldInput
+        android:id="@+id/field_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp"
         app:drawableEnd="@drawable/ic_barcode"
-        app:hint="@string/app_name" />
+        app:errorEnabled="false"
+        app:focusable="true"
+        app:hint="@string/app_name"
+        app:inputType="text"
+        app:passwordToggleEnabled="false"
+        app:textAllCaps="false"
+        app:textColor="@color/black"
+        app:textSize="14sp" />
 
 </LinearLayout>
 ```
