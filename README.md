@@ -103,7 +103,7 @@ Attribute for FieldInput
 | Attribute Name | Default Value | Description |
 |----------------|---------------|-------------|
 | hint | null | For set hint of field.
-| errorEnabled | false | For activate error below field |
+
 | focusable | true | For activate focus |
 | passwordToggleEnabled | false | For activate password visibility |
 | style | null | For set text appearance of text field |
