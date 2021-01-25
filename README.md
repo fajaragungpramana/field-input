@@ -38,8 +38,7 @@ Define a view in your layout file:
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp"
-        app:drawableEnd="@drawable/ic_barcode"
-        app:errorEnabled="false"
+        app:drawableEnd="@drawable/ic_barcode"      
         app:focusable="true"
         app:hint="@string/app_name"
         app:inputType="text"
@@ -102,8 +101,7 @@ fieldInput.text = "Type something here!" // Do this to set input
 Attribute for FieldInput
 | Attribute Name | Default Value | Description |
 |----------------|---------------|-------------|
-| hint | null | For set hint of field|
-||||
+| hint | null | For set hint of field |
 | focusable | true | For activate focus |
 | passwordToggleEnabled | false | For activate password visibility |
 | style | null | For set text appearance of text field |
