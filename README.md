@@ -102,8 +102,8 @@ fieldInput.text = "Type something here!" // Do this to set input
 Attribute for FieldInput
 | Attribute Name | Default Value | Description |
 |----------------|---------------|-------------|
-| hint | null | For set hint of field.
-
+| hint | null | For set hint of field|
+||||
 | focusable | true | For activate focus |
 | passwordToggleEnabled | false | For activate password visibility |
 | style | null | For set text appearance of text field |
