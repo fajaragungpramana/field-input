@@ -1,5 +1,6 @@
 # Android Field Input
 [![](https://jitpack.io/v/fajaragungpramana/field-input.svg)](https://jitpack.io/#fajaragungpramana/field-input)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 </br>
 </br>
 Library for android, field input with drawable and click listener for drawable.
@@ -18,7 +19,7 @@ allProjects {
 Add the dependency:
 ```gradle
 dependencies {
-	implementation 'com.github.fajaragungpramana:field-input:0.0.2'
+	implementation 'com.github.fajaragungpramana:field-input:0.0.3'
 }
 ```
 
