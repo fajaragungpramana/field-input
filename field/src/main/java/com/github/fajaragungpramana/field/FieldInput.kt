@@ -41,13 +41,6 @@ class FieldInput @JvmOverloads constructor(
             if (field != 0) mDrawableEnd.setImageDrawable(ContextCompat.getDrawable(ctx, field))
         }
 
-    var errorEnabled: Boolean = false
-        set(value) {
-            field = value
-
-            mTextInputLayout.isErrorEnabled = field
-        }
-
     var errorMessage: String? = null
         set(value) {
             field = value
@@ -137,7 +130,6 @@ class FieldInput @JvmOverloads constructor(
         val ta = ctx.obtainStyledAttributes(attrs, R.styleable.FieldInput, defStyle, defStyleRes)
 
         drawableEnd = ta.getResourceId(R.styleable.FieldInput_drawableEnd, 0)
-        errorEnabled = ta.getBoolean(R.styleable.FieldInput_errorEnabled, false)
         focus = ta.getBoolean(R.styleable.FieldInput_focusable, true)
         hint = ta.getString(R.styleable.FieldInput_hint)
         inputType = ta.getInt(R.styleable.FieldInput_inputType, InputType.TYPE_CLASS_TEXT)
