@@ -3,7 +3,6 @@
 
     <declare-styleable name="FieldInput">
         <attr name="drawableEnd" format="reference" />
-        <attr name="errorEnabled" format="boolean" />
         <attr name="focusable" format="boolean" />
         <attr name="hint" format="reference|string" />
         <attr name="inputType">
