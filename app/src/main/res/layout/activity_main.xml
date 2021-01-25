@@ -12,7 +12,6 @@
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp"
         app:drawableEnd="@drawable/ic_barcode"
-        app:errorEnabled="false"
         app:focusable="true"
         app:hint="@string/app_name"
         app:inputType="text"
