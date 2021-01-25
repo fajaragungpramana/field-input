@@ -1,5 +1,5 @@
-# Android Field Drawable
-[![](https://jitpack.io/v/fajaragungpramana/android-field-drawable.svg)](https://jitpack.io/#fajaragungpramana/android-field-drawable)
+# Android Field Input
+[![](https://jitpack.io/v/fajaragungpramana/field-input.svg)](https://jitpack.io/#fajaragungpramana/field-input)
 </br>
 </br>
 Library for android, field input with drawable and click listener for drawable.
@@ -18,57 +18,94 @@ allProjects {
 Add the dependency:
 ```gradle
 dependencies {
-	implementation 'com.github.fajaragungpramana:field-drawable:0.0.1'
+	implementation 'com.github.fajaragungpramana:field-input:0.0.2'
 }
 ```
 
 ## Usage
 Define a view in your layout file:
 ```xml
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.implizstudio.android.app.library.FieldDrawable
-        android:id="@+id/fd_field"
+    <com.github.fajaragungpramana.field.FieldInput
+        android:id="@+id/field_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp"
         app:drawableEnd="@drawable/ic_barcode"
-        app:hint="@string/app_name" />
+        app:errorEnabled="false"
+        app:focusable="true"
+        app:hint="@string/app_name"
+        app:inputType="text"
+        app:passwordToggleEnabled="false"
+        app:textAllCaps="false"
+        app:textColor="@color/black"
+        app:textSize="14sp" />
 
 </LinearLayout>
 ```
 For drawable click listener.
 ```kotlin
-fieldDrawable.drawableListener = object : DrawableListener {
-	override fun onClickDrawable() {
-		// Do something magic here. When user click the drawable on field!
-	}
+fieldInput.setOnClickDrawableListener(DrawablePosition.END) {
+	Log.d(MainActivity::class.simpleName, "Clicked!")
 }
 ```
 For set error message.
 ```kotlin
-fieldDrawable.errorMessage = "Error message here!"
+fieldInput.errorMessage = "Type Something error message here!"
 ```
 For set text or get text input.
 ```kotlin
-fieldDrawable.text // Do this to get input
-fieldDrawable.text = "Type something here" // Do this to set input
+fieldInput.text // Do this to get input
+fieldInput.text = "Type something here!" // Do this to set input
 ```
 
+
+## Preview
+<a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldInput/fieldinput_preview.jpg" align="left" height="640" width="320" ></a>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
 ## Documentation
-Attribute for FieldDrawable
+Attribute for FieldInput
 | Attribute Name | Default Value | Description |
 |----------------|---------------|-------------|
 | hint | null | For set hint of field.
 | errorEnabled | false | For activate error below field |
 | focusable | true | For activate focus |
 | passwordToggleEnabled | false | For activate password visibility |
+| style | null | For set text appearance of text field |
 | textAllCaps | false | For activate field text caps |
 | drawableEnd | null | For put drawable in the right side |
 | inputType | text | For input type field |
@@ -95,7 +132,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
-
-## Preview
-<a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldDrawable/preview.jpg" align="left" height="640" width="320" ></a>
