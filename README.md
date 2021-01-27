@@ -106,9 +106,20 @@ Idle
 </br>
 </br>
 </br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 Typing
 <a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldInput/Typing.jpg" align="left" height="640" width="320" ></a>
+
+</br>
+</br>
+</br>
+</br>
+</br>
 </br>
 </br>
 </br>
@@ -140,6 +151,11 @@ Typing
 
 Error
 <a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldInput/Error.jpg" align="left" height="640" width="320" ></a>
+</br>
+</br>
+</br>
+</br>
+</br>
 </br>
 </br>
 </br>
