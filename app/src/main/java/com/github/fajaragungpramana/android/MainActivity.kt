@@ -15,13 +15,15 @@ class MainActivity : AppCompatActivity() {
         val fieldInput = findViewById<FieldInput>(R.id.field_input)
 
         fieldInput.setOnClickDrawableListener(DrawablePosition.END) {
-            Log.d(MainActivity::class.simpleName, "Clicked!")
+            Log.d(MainActivity::class.simpleName, "Drawable ${DrawablePosition.END} Clicked!")
         }
 
-        fieldInput.text
-        fieldInput.text = "Type something here!"
+        fieldInput.setOnTextChanged { text ->
+            // Do something hire when user still typing
+        }
 
-        fieldInput.errorMessage = "Type Something error message here!"
+        fieldInput.errorMessage = "Type something error message here!"
+
     }
 
 }
