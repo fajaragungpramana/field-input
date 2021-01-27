@@ -76,7 +76,70 @@ fieldInput.text = "Type something here!" // Do this to set input
 ```
 
 ## Preview
-<a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldInput/fieldinput_preview.jpg" align="left" height="640" width="320" ></a>
+Idle
+<a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldInput/Idle.jpg" align="left" height="640" width="320" ></a>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+Typing
+<a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldInput/Typing.jpg" align="left" height="640" width="320" ></a>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+Error
+<a href="url"><img src="https://github.com/fajaragungpramana/assets/blob/master/FieldInput/Error.jpg" align="left" height="640" width="320" ></a>
 </br>
 </br>
 </br>
