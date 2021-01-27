@@ -15,7 +15,6 @@
         app:focusable="true"
         app:hint="@string/app_name"
         app:inputType="text"
-        app:passwordToggleEnabled="false"
         app:textAllCaps="false"
         app:textColor="@color/black"
         app:textSize="14sp" />
