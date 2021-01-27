@@ -1,5 +1,4 @@
 # Android Field Input
-[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/fajaragungpramana/field-input/releases)
 [![](https://jitpack.io/v/fajaragungpramana/field-input.svg)](https://jitpack.io/#fajaragungpramana/field-input)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 </br>
@@ -179,12 +178,6 @@ Attribute for FieldInput
 | inputType | text | For input type field |
 | textColor | null | For set color text field |
 | textSize | 14sp | For set text size field |
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to 
-discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## License
 Copyright 2021 Fajar Agung Pramana
