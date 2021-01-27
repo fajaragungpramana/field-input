@@ -5,39 +5,67 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_field_input"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/tv_field_hint"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:errorEnabled="true"
+        android:layout_marginStart="4dp"
+        android:alpha="0"
+        android:textSize="12sp"
+        android:translationY="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/et_field_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:hint="@null"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textCursorDrawable="@null"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/tv_field_hint"
+        app:layout_constraintVertical_bias="0.0" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/tie_field_input"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/white"
-            android:inputType="text"
-            android:textSize="14sp" />
-
-    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/tv_field_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:translationY="-5dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_field_input"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/iv_field_drawable_end"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="4dp"
         android:maxWidth="24dp"
         android:maxHeight="24dp"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/et_field_input"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_field_input"
+        app:layout_constraintVertical_bias="0.3"
         tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
